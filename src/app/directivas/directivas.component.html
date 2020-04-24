@@ -1,0 +1,14 @@
+
+<h2>ngIf</h2>
+<p *ngIf="bandera1">Este texto - Se escribe si bandera1 es true.</p>
+<p *ngIf="!bandera2">Este texto - Se escribe si bandera2 es false.</p>
+
+<h2>ngFor</h2>
+<p *ngFor="let elemento of listaNombres; let i=index">Nombre {{i}} - Se escribe {{elemento.nombre}}.</p>
+
+<h2>ngSwitch</h2>
+<div ngSwitch={{opcion}}>
+    <p *ngSwitchCase="1">Se eligió la opción 1.</p>
+    <p *ngSwitchCase="2">Se eligió la opción 2.</p>
+    <p *ngSwitchCase="3">Se eligió la opción 3.</p>
+</div>
