@@ -7,12 +7,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import { PipesComponent } from './pipes/pipes.component';
 import { DirectivasComponent } from './directivas/directivas.component';
+import { BibliotecaComponent } from './biblioteca/biblioteca.component';
+import { AnimacionComponent } from './animacion/animacion.component';
+import { EjemploRoutingComponent } from './ejemplo-routing/ejemplo-routing.component';
+import { EjemploRoutingCualquierOtroComponent } from './ejemplo-routing-cualquier-otro/ejemplo-routing-cualquier-otro.component';
+import { EjemplosTodosComponent } from './ejemplos-todos/ejemplos-todos.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DirectivasComponent,
-    PipesComponent
+    PipesComponent,
+    BibliotecaComponent,
+    AnimacionComponent,
+    EjemploRoutingComponent,
+    EjemploRoutingCualquierOtroComponent,
+    EjemplosTodosComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
